@@ -6,11 +6,15 @@
 <head runat="server">
     <title>Fuerte Final Project</title>
     <style>
-        .container {
+        .container 
+        {
             align-content: center;
             text-align:center;
         }
-
+        .alternate-font 
+        {
+        font-family:"Montserrat" 
+        }
    </style>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
@@ -20,7 +24,7 @@
 <body>
     <form id="form1" runat="server">
         <div class="container">
-            <h1>Team Fuerte</h1>
+            <h1 class="alternate-font">Team Fuerte</h1>
             <p>This is some text.</p>
         </div>
     </form>
