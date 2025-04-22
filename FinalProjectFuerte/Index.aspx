@@ -11,7 +11,7 @@
             align-content: center;
             text-align:center;
         }
-        .alternate-font 
+        .display-2 
         {
         font-family:"Montserrat" 
         }
@@ -24,8 +24,8 @@
 <body>
     <form id="form1" runat="server">
         <div class="container">
-            <h1 class="alternate-font">Team Fuerte</h1>
-            <p>This is some text.</p>
+            <h1 class="display-2">Team Fuerte</h1>
+            <p class="h5"><u>Team members: Amadou Toure, Flip Gill, Manny Rosa, Noah Owens</u></p>
         </div>
     </form>
 </body>
