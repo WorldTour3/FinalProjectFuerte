@@ -30,6 +30,10 @@
             <asp:Button ID="LeetCodeButton02" class="btn btn-primary" runat="server" Text="Solution02" />
             <asp:Button ID="LeetCodeButton03" class="btn btn-primary" runat="server" Text="Soultion03" />
             <asp:Button ID="LeetCodeButton04" class="btn btn-primary" runat="server" Text="Solution04" />
+            <br /><br />
+            <asp:Label ID="ProblemLabel" runat="server" Text="" EnableViewState="false"></asp:Label>
+            <br /><br />
+            <asp:Label ID="ResultLabel" runat="server" Text="" EnableViewState="false"></asp:Label>
         </div>
     </form>
 </body>
