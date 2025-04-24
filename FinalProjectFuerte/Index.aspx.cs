@@ -39,6 +39,20 @@ Then buy on day 7 (price = 1) and sell on day 8 (price = 4), profit = 4-1 = 3.
             ProblemLabel.Text = description.Replace("\n", "<br/>").Replace(" ", "&nbsp;");
             ResultLabel.Text = "<b>Max profit is: " + result + "</b>";
         }
+
+        protected void ClearButton_Click(object sender, EventArgs e)
+        {
+            ClearInputs(Page.Controls);
+        }
+        void ClearInputs(ControlCollection ctrls)
+        {
+            foreach (Control ctrl in ctrls)
+            {
+                if (ctrl is TextBox)
+                    ((TextBox)ctrl).Text = string.Empty;
+                ClearInputs(ctrl.Controls);
+            }
+        }
     }
 }
 

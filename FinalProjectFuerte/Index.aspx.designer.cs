@@ -24,6 +24,15 @@ namespace FinalProjectFuerte
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
+        /// ClearButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ClearButton;
+
+        /// <summary>
         /// LeetCodeButton01 control.
         /// </summary>
         /// <remarks>
