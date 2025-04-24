@@ -26,7 +26,7 @@
         <div class="container">
             <h1 class="display-2">Team Fuerte</h1>
             <p class="h5"><u>Team members: Amadou Toure, Flip Gill, Manny Rosa, Noah Owens</u></p>
-            <asp:Button ID="LeetCodeButton01" class="btn btn-primary" runat="server" Text="Solution01" />
+            <asp:Button ID="LeetCodeButton01" class="btn btn-primary" runat="server" Text="Solution01" OnClick="LeetCodeButton01_Click" />
             <asp:Button ID="LeetCodeButton02" class="btn btn-primary" runat="server" Text="Solution02" />
             <asp:Button ID="LeetCodeButton03" class="btn btn-primary" runat="server" Text="Soultion03" />
             <asp:Button ID="LeetCodeButton04" class="btn btn-primary" runat="server" Text="Solution04" />

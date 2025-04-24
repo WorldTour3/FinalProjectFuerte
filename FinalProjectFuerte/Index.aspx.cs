@@ -13,5 +13,10 @@ namespace FinalProjectFuerte
         {
 
         }
+
+        protected void LeetCodeButton01_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
