@@ -11,10 +11,7 @@
             align-content: center;
             text-align:center;
         }
-        .display-2 
-        {
-        font-family:"Montserrat" 
-        }
+        
    </style>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
@@ -24,7 +21,7 @@
 <body>
     <form id="form1" runat="server">
         <div class="container">
-            <h1 class="display-2">Team Fuerte</h1>
+            <h1>Team Fuerte</h1>
             <p class="h5"><u>Team members: Amadou Toure, Flip Gill, Manny Rosa, Noah Owens</u></p>
             <asp:Button ID="ClearButton" class="btn btn-danger" runat="server" Text="Clear" OnClick="ClearButton_Click" />
             <asp:Button ID="LeetCodeButton01" class="btn btn-primary" runat="server" Text="Solution01" OnClick="LeetCodeButton01_Click" />
