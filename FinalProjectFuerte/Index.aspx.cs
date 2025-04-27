@@ -16,7 +16,7 @@ namespace FinalProjectFuerte
 
         protected void LeetCodeButton01_Click(object sender, EventArgs e)
         {
-            // LeetCode problem context
+            // LeetCode01 problem context
             string description = @"You are given an array prices where prices[i] is the price of a given stock on the ith day.
 
   Find the maximum profit you can achieve. You may complete at most two transactions.
