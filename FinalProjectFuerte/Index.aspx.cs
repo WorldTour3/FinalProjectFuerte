@@ -81,7 +81,31 @@ Then buy on day 7 (price = 1) and sell on day 8 (price = 4), profit = 4-1 = 3.
                 ClearInputs(ctrl.Controls);
             }
         }
-       
+
+        /// <summary>
+        /// Leedcode button event
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        protected void LeetCodeButton04_Click(object sender, EventArgs e)
+        {
+            // Problem description
+            string description = @"Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
+              
+            Example:
+            Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
+            Output: 6";
+
+            // Solve the problem
+            LeetCode04 solver = new LeetCode04();
+            int[] elevationMap = { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
+            int result = solver.Trap(elevationMap);
+
+            // Display results
+            ProblemLabel.Text = description.Replace("\n", "<br/>").Replace(" ", "&nbsp;");
+            ResultLabel.Text = "<b>Trapped Water: " + result + "</b>";
+        }
+
     }
 }
 
