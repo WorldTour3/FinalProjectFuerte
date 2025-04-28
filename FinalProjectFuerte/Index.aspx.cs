@@ -13,7 +13,11 @@ namespace FinalProjectFuerte
         protected void Page_Load(object sender, EventArgs e)
         {
         }
-
+        /// <summary>
+        /// Leetcode01 button event
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         protected void LeetCodeButton01_Click(object sender, EventArgs e)
         {
             // LeetCode01 problem context
@@ -53,6 +57,7 @@ Then buy on day 7 (price = 1) and sell on day 8 (price = 4), profit = 4-1 = 3.
                 ClearInputs(ctrl.Controls);
             }
         }
+       
     }
 }
 
