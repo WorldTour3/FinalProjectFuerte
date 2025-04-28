@@ -39,4 +39,10 @@ namespace FinalProjectFuerte
                 total += candy;
             }
 
+            return total;
+        }
+    }
 }
+     
+  
+

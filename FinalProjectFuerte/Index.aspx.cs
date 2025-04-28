@@ -40,6 +40,30 @@ Then buy on day 7 (price = 1) and sell on day 8 (price = 4), profit = 4-1 = 3.
             ResultLabel.Text = "<b>Max profit is: " + result + "</b>";
         }
 
+        protected void LeetButton02_Click(object sender, EventArgs e)
+        {
+            //LeetCode02 Problem
+#pragma warning disable CS0219 // Variable is assigned but its value is never used
+            string description = "@There are n children standing in a line. Each child is " +
+   "assigned a rating value given in the integer array ratings.You are " +
+   "giving candies to these children subjected to the following requirements:" +
+   "Each child must have at least one candy.Children with a higher " +
+   "rating get more candies than their neighbors.Return the minimum number of" +
+   " candies you need to have to distribute the candies to the children. " +
+
+   "Example 1:Input: ratings = [1,0,2]Output: 5 Explanation" +
+    ": You can allocate to the first, second and third child with 2, 1, 2 candies " +
+    "respectively.";
+#pragma warning restore CS0219 // Variable is assigned but its value is never used
+            
+            //Solve problem
+            LeetCode02 solver = new LeetCode02();
+            int[] ratings = { 1, 0, 2 };
+            int result = solver.Candy(ratings);
+            //Display
+            ProblemLabel.Text = description.Replace("\n", "<br/>").Replace(" ", "&nbsp;");
+            Console.WriteLine($"Minimum Candies needed: :{result}");
+        }
         protected void ClearButton_Click(object sender, EventArgs e)
         {
             ClearInputs(Page.Controls);
