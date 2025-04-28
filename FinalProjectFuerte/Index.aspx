@@ -40,7 +40,7 @@
             <p class="h5"><u>Team members: Amadou Toure, Flip Gill, Manny Rosa, Noah Owens</u></p>
             <asp:Button ID="ClearButton" class="btn btn-danger" runat="server" Text="Clear" OnClick="ClearButton_Click" />
             <asp:Button ID="LeetCodeButton01" class="btn btn-primary" runat="server" Text="Solution01" OnClick="LeetCodeButton01_Click" />
-            <asp:Button ID="LeetCodeButton02" class="btn btn-primary" runat="server" Text="Solution02" />
+            <asp:Button ID="LeetCodeButton02" class="btn btn-primary" runat="server" Text="Solution02" OnClick="LeetCodeButton02_Click"/>
             <asp:Button ID="LeetCodeButton03" class="btn btn-primary" runat="server" Text="Soultion03" />
             <asp:Button ID="LeetCodeButton04" class="btn btn-primary" runat="server" Text="Solution04" />
             <br /><br />
