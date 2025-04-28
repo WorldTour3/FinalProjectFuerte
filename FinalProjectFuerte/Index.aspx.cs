@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.IO;
+
 
 
 namespace FinalProjectFuerte
@@ -106,6 +108,34 @@ Then buy on day 7 (price = 1) and sell on day 8 (price = 4), profit = 4-1 = 3.
             ResultLabel.Text = "<b>Trapped Water: " + result + "</b>";
         }
 
+        protected void LeetCodeButton03_Click(object sender, EventArgs e)
+        {
+            // LeetCode03 problem context
+            string description = @"Given two sorted arrays nums1 and nums2 of size m and n respectively, 
+return the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
+
+Example 1:
+Input: nums1 = [1,3], nums2 = [2]
+Output: 2.00000
+Explanation: merged array = [1,2,3] and median is 2.
+
+Example 2:
+Input: nums1 = [1,2], nums2 = [3,4]
+Output: 2.50000
+Explanation: merged array = [1,2,3,4] and median is (2+3)/2 = 2.5.";
+
+            // Solve the problem
+            LeetCode03 solver = new LeetCode03();
+            int[] nums1 = { 1, 3 };
+            int[] nums2 = { 2 };
+            double result = solver.FindMedianSortedArrays(nums1, nums2);
+
+            // Display everything
+            ProblemLabel.Text = description.Replace("\n", "<br/>").Replace(" ", "&nbsp;");
+            ResultLabel.Text = "<b>Median is: " + result.ToString("F5") + "</b>";
+        }
+
     }
 }
+
 
