@@ -39,7 +39,7 @@
             <asp:Button ID="ClearButton" class="btn btn-danger" runat="server" Text="Clear" OnClick="ClearButton_Click" />
             <asp:Button ID="LeetCodeButton01" class="btn btn-primary" runat="server" Text="Solution01" OnClick="LeetCodeButton01_Click" />
             <asp:Button ID="LeetCodeButton02" class="btn btn-primary" runat="server" Text="Solution02" OnClick="LeetCodeButton02_Click"/>
-            <asp:Button ID="LeetCodeButton03" class="btn btn-primary" runat="server" Text="Soultion03" />
+            <asp:Button ID="LeetCodeButton03" class="btn btn-primary" runat="server" Text="Soultion03" OnClick="LeetCodeButton03_Click"/>
             <asp:Button ID="LeetCodeButton04" class="btn btn-primary" runat="server" Text="Solution04" OnClick="LeetCodeButton04_Click"/>
             <br /><br />
             <asp:Label ID="ProblemLabel" runat="server" Text="" EnableViewState="false"></asp:Label>
