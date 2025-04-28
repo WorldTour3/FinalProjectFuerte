@@ -2,16 +2,14 @@
 * File Name: FinalProjectFuerte
 * Name: Amadou Toure,Flip Gill, Manny Rosa, Noah Owens
 * email: 
-* Assignment Number: Assignment nn  {required}
-* Due Date:   {required}
-* Course #/Section:   {required}
-* Semester/Year:   {required}
+* Assignment Number: FinalProject
+* Due Date:4/29/2025
+* Course #/Section:IS3050-001
+* Semester/Year:Spring 25
 * Brief Description of the assignment:  {required}
-
 * Brief Description of what this module does. {Do not copy/paste from a previous assignment. Put some thought into this. required}
 * Citations: {Link to specific pages. "StackOverflow" or "w3Schools" is not sufficient. }
-* Anything else that's relevant:
-    -->
+ -->
 
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="FinalProjectFuerte.Index" %>
 
