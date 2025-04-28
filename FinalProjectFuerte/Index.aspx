@@ -1,4 +1,19 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="FinalProjectFuerte.Index" %>
+﻿<!--
+* File Name: FinalProjectFuerte
+* Name: Amadou Toure,Flip Gill, Manny Rosa, Noah Owens
+* email: 
+* Assignment Number: Assignment nn  {required}
+* Due Date:   {required}
+* Course #/Section:   {required}
+* Semester/Year:   {required}
+* Brief Description of the assignment:  {required}
+
+* Brief Description of what this module does. {Do not copy/paste from a previous assignment. Put some thought into this. required}
+* Citations: {Link to specific pages. "StackOverflow" or "w3Schools" is not sufficient. }
+* Anything else that's relevant:
+    -->
+
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="FinalProjectFuerte.Index" %>
 
 <!DOCTYPE html>
 

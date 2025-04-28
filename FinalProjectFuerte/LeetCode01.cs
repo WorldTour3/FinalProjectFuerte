@@ -7,6 +7,11 @@ namespace FinalProjectFuerte
 {
     public class LeetCode01
     {
+        /// <summary>
+        /// Leetcode solution program
+        /// </summary>
+        /// <param name="prices"></param>
+        /// <returns></returns>
         public int MaxProfit(int[] prices)
         {
             if (prices == null || prices.Length == 0)
