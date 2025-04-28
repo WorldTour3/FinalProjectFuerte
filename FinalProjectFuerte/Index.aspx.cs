@@ -40,7 +40,7 @@ Then buy on day 7 (price = 1) and sell on day 8 (price = 4), profit = 4-1 = 3.
             ResultLabel.Text = "<b>Max profit is: " + result + "</b>";
         }
 
-        protected void LeetButton02_Click(object sender, EventArgs e)
+        protected void LeetCodeButton02_Click(object sender, EventArgs e)
         {
             //LeetCode02 Problem
 #pragma warning disable CS0219 // Variable is assigned but its value is never used
