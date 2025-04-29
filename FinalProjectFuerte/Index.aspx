@@ -6,7 +6,7 @@
 * Due Date:4/29/2025
 * Course #/Section:IS3050-001
 * Semester/Year:Spring 25
-* Brief Description of the assignment: This assignment demonstrates mastery of basic C# programming and ASP.Net web
+* Brief Description of the assignment: This assignment demonstrates mastery of basic C# programming and ASP.Net web using various controls and c# classes 
 * Brief Description of what this module does: ASP.NET Webpage that allows users to run solutions to LeetCode problems by clicking buttons on the webpage.
 * Citations: stackoverflow: https://stackoverflow.com/questions/11464020/create-asp-net-reset-button
              Bootstrap: https://getbootstrap.com/docs/3.4/css/#type
